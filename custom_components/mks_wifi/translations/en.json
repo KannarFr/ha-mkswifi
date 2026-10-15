@@ -1,0 +1,78 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Device is already configured",
+      "reconfigure_successful": "Reconfiguration was successful"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "reconfigure": {
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the MKS WIFI module of your printer.",
+          "port": "The TCP port the MKS WIFI module listens on, 8080 unless changed."
+        }
+      },
+      "user": {
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the MKS WIFI module of your printer.",
+          "port": "The TCP port the MKS WIFI module listens on, 8080 unless changed."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "bed_target_temperature": {
+        "name": "Bed target temperature"
+      },
+      "bed_temperature": {
+        "name": "Bed temperature"
+      },
+      "elapsed": {
+        "name": "Print time"
+      },
+      "extra_nozzle_target_temperature": {
+        "name": "Nozzle {nozzle} target temperature"
+      },
+      "extra_nozzle_temperature": {
+        "name": "Nozzle {nozzle} temperature"
+      },
+      "file_name": {
+        "name": "Current file"
+      },
+      "nozzle_target_temperature": {
+        "name": "Nozzle target temperature"
+      },
+      "nozzle_temperature": {
+        "name": "Nozzle temperature"
+      },
+      "progress": {
+        "name": "Progress"
+      },
+      "state": {
+        "name": "State",
+        "state": {
+          "idle": "Idle",
+          "paused": "Paused",
+          "printing": "Printing"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "communication_error": {
+      "message": "An error occurred while communicating with the printer."
+    }
+  }
+}

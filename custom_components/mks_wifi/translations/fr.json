@@ -1,0 +1,78 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "L'appareil est déjà configuré",
+      "reconfigure_successful": "La reconfiguration a réussi"
+    },
+    "error": {
+      "cannot_connect": "Échec de la connexion",
+      "unknown": "Erreur inattendue"
+    },
+    "step": {
+      "reconfigure": {
+        "data": {
+          "host": "Hôte",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Le nom d'hôte ou l'adresse IP du module MKS WIFI de votre imprimante.",
+          "port": "Le port TCP sur lequel écoute le module MKS WIFI, 8080 sauf modification."
+        }
+      },
+      "user": {
+        "data": {
+          "host": "Hôte",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Le nom d'hôte ou l'adresse IP du module MKS WIFI de votre imprimante.",
+          "port": "Le port TCP sur lequel écoute le module MKS WIFI, 8080 sauf modification."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "bed_target_temperature": {
+        "name": "Température cible du plateau"
+      },
+      "bed_temperature": {
+        "name": "Température du plateau"
+      },
+      "elapsed": {
+        "name": "Temps d'impression"
+      },
+      "extra_nozzle_target_temperature": {
+        "name": "Température cible de la buse {nozzle}"
+      },
+      "extra_nozzle_temperature": {
+        "name": "Température de la buse {nozzle}"
+      },
+      "file_name": {
+        "name": "Fichier en cours"
+      },
+      "nozzle_target_temperature": {
+        "name": "Température cible de la buse"
+      },
+      "nozzle_temperature": {
+        "name": "Température de la buse"
+      },
+      "progress": {
+        "name": "Progression"
+      },
+      "state": {
+        "name": "État",
+        "state": {
+          "idle": "Inactive",
+          "paused": "En pause",
+          "printing": "Impression en cours"
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "communication_error": {
+      "message": "Une erreur s'est produite lors de la communication avec l'imprimante."
+    }
+  }
+}

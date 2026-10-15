@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "sensor": {
+      "file_name": {
+        "default": "mdi:file"
+      },
+      "progress": {
+        "default": "mdi:progress-clock"
+      },
+      "state": {
+        "default": "mdi:printer-3d",
+        "state": {
+          "paused": "mdi:pause-circle",
+          "printing": "mdi:printer-3d-nozzle"
+        }
+      }
+    }
+  }
+}
